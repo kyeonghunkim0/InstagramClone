@@ -1,0 +1,10 @@
+// 환경별 설정 템플릿 (커밋 대상)
+// `make setup`이 이 파일을 Dev.xcconfig / Prod.xcconfig로 복사한다. 복사본은 커밋하지 않는다.
+
+#include "Shared.xcconfig"
+
+// 번들 ID 접미사: Dev는 .dev, Prod는 비워둔다
+BUNDLE_ID_SUFFIX = .dev
+
+// 홈 화면에 표시되는 앱 이름
+APP_DISPLAY_NAME = Instagram Dev

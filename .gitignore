@@ -68,3 +68,9 @@ Derived/
 
 ### Tuist managed dependencies ###
 Tuist/.build
+### Firebase ###
+**/GoogleService-Info.plist
+
+### XCConfig (Template.xcconfig·Shared.xcconfig만 커밋) ###
+XCConfig/Dev.xcconfig
+XCConfig/Prod.xcconfig
